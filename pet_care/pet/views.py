@@ -12,3 +12,9 @@ def contact(req):
 
 def blog(req):
     return render(req, "blog.html")    
+
+def element(req):
+    return render(req, "elements.html")
+
+def service(req):
+    return render(req,"service.html")

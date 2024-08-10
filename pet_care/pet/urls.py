@@ -5,4 +5,6 @@ urlpatterns = [
    path('about',views.about),
    path('contact',views.contact),
    path('blog',views.blog),
+   path('element',views.element),
+   path('service',views.service),
    ]
